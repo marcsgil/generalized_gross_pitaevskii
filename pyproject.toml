@@ -1,0 +1,18 @@
+[project]
+name = "generalized-gross-pitaevskii"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Marcos Gil", email = "marcosgildeoliveira@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "juliacall>=0.9.24",
+    "juliapkg>=0.1.16",
+    "numpy>=2.2.4",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
